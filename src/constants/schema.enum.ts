@@ -1,0 +1,21 @@
+export enum RECEIPT_STATUS {
+    CONFIRMED = 'CONFIRMED', //ĐƠN HÀNG ĐÃ XÁC NHẬN
+    UNCONFIRMED = 'UNCONFIRMED', // ĐƠN HÀNG MỚI 
+    PREPARE = 'PREPARE',// SHOP ĐANG CHUẨN BỊ HÀNG
+    ON_DELIVERY = 'ON_DELIVERY',// ĐANG GIAO HÀNG
+    DELIVERED = 'DELIVERED',// ĐÃ GIAO HÀNG THÀNH CÔNG
+    CANCEL = 'CANCEL'// HỦY ĐƠN HÀNG
+}
+export enum TYPE_COUPONS {
+    PRICE = 'PRICE',
+    PERCENT = 'PERCENT'
+}
+export enum PAYMENT_METHOD {
+    COD = 'COD',
+    VNPAY = 'VNPAY'
+}
+export enum TYPE_GENDER {
+    FEMALE = 'FEMALE',
+    MALE = 'MALE',
+    OTHER = 'OTHER'
+}
